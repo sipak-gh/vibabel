@@ -1,0 +1,14 @@
+[package]
+name = "vibabel"
+version = "0.1.0"
+edition = "2024"
+description = "A minimal vi-style terminal editor for writing pages of the Library of Babel"
+readme = "README.md"
+license = "0BSD"
+keywords = ["editor", "vi", "terminal", "library-of-babel", "borges"]
+categories = ["command-line-utilities", "text-editors"]
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+crossterm = "0.29.0"
